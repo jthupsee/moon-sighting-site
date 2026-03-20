@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Sighting Predictor | Saleem Thupsee Technologies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-gradient { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+        .feature-card:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+
+    <nav class="p-6 bg-slate-900 text-white flex justify-between items-center">
+        <div class="text-xl font-bold tracking-tight">
+            <i class="fas fa-moon text-yellow-400 mr-2"></i> SALEEM THUPSEE <span class="text-slate-400 font-light">TECHNOLOGIES</span>
+        </div>
+        <a href="#" class="hidden md:block bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-full font-semibold transition">Install Extension</a>
+    </nav>
+
+    <header class="hero-gradient text-white py-20 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                Precision Moon Sighting <br><span class="text-blue-400">Powered by Science.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
+                The essential Chrome tool for accurately predicting Hijri months using PyEphem astronomical algorithms and real-time visibility scoring.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="YOUR_CHROME_STORE_URL_HERE" class="bg-white text-slate-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-slate-100 transition shadow-xl">
+                    <i class="fab fa-chrome mr-2"></i> Add to Chrome
+                </a>
+                <a href="#features" class="border border-slate-500 px-8 py-4 rounded-lg font-bold text-lg hover:bg-slate-800 transition">
+                    Explore Features
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">New in Version 2.0</h2>
+            <p class="text-slate-600">Advanced astronomical data points for the serious observer.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="feature-card bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fas fa-chart-line fa-lg"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Visibility Scoring</h3>
+                <p class="text-slate-600">Get an instant confidence score based on Moon Age, Elongation, and Delta-h (altitude difference).</p>
+            </div>
+
+            <div class="feature-card bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fas fa-microscope fa-lg"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">PyEphem Accuracy</h3>
+                <p class="text-slate-600">No approximations. We use high-fidelity astronomical libraries to calculate lag time (DH) and illumination.</p>
+            </div>
+
+            <div class="feature-card bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fas fa-globe-americas fa-lg"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Global Expansion</h3>
+                <p class="text-slate-600">Native support for 17 major global cities with precise coordinates and timezone synchronization.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-100 py-20 px-6">
+        <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden border border-slate-200">
+            <div class="p-8 border-b border-slate-100 bg-slate-50 flex justify-between items-center">
+                <h3 class="font-bold text-xl">Interactive Visibility Map</h3>
+                <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full uppercase">Real-Time</span>
+            </div>
+            <div class="p-8 text-center">
+                <p class="text-slate-600 mb-6">
+                    Our extension embeds a complete web application. Access worldwide moon visibility maps and a multi-month predictive calendar in a single click.
+                </p>
+                <div class="bg-slate-900 rounded-xl p-4 text-left font-mono text-sm text-blue-400">
+                    <div>> Loading Delta-h Calculations... [OK]</div>
+                    <div>> Calculating Elongation... [OK]</div>
+                    <div>> Visibility Confidence: 94% (Easy Sighting)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 px-6 text-center border-t border-slate-200">
+        <div class="mb-6 text-sm text-slate-500 uppercase tracking-widest font-semibold">
+            Status: Quantum Line Active [EL***]
+        </div>
+        <p class="text-slate-400 text-sm">
+            &copy; 2026 Saleem Thupsee Technologies. All Rights Reserved. <br>
+            Contact: thupseesaleem05@gmail.com
+        </p>
+    </footer>
+
+</body>
+</html>
